@@ -1,0 +1,20 @@
+{
+  "name": "documentation-opendiode",
+  "version": "0.0.1",
+  "description": "Documentation du projet open source OpenDiode",
+  "main": "index.js",
+  "authors": {
+    "name": "rulio",
+    "email": "bariljules2@gmail.com"
+  },
+  "repository": "/Documentation OpenDiode",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-clean-urls": "^1.1.2"
+  }
+}
